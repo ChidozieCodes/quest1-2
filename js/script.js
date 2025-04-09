@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", showSlides);
 
 let header = document.querySelector('header');
 window.addEventListener('scroll', function(){
-    if(this.scrollY > 880){
+    if(this.scrollY > 700){
         header.style.background = 'rgba(0,0,0,0.5)';
         header.classList.add('animate__fadeInDown');
     }else{
